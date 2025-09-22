@@ -35,7 +35,8 @@ O SO trata carregando essa página do disco (arquivo de paginação) para a RAM.
 
 Compare a execução de um processo com paginação e sem paginação. Quais vantagens você observou?
 
-Resposta:
+Resposta: 
+
 Com paginação: permite executar processos maiores que a memória física, usa a memória de forma mais eficiente, mas pode gerar mais faltas de página (e ficar mais lento se exagerar). Já o sem paginação: O processo precisa caber inteiro na RAM. É mais rápido (sem custo de faltas de página), mas limita o tamanho do processo e pode desperdiçar memória.
 A vantagem que eu observei é que com paginação dá pra rodar processos maiores e vários ao mesmo tempo, mesmo com RAM limitada, melhora o aproveitamento da memória evitando desperdício e facilita a multiprogramação rodando vários processos ao mesmo tempo.
 
